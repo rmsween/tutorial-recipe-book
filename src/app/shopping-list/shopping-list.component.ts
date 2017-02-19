@@ -5,6 +5,7 @@ import { Ingredient } from '../shared/ingredient';
 import { ShoppingListService } from './shopping-list.service';
 
 @Component({
+  moduleId: module.id,
   selector: 'rb-shopping-list',
   templateUrl: './shopping-list.component.html'
 })
